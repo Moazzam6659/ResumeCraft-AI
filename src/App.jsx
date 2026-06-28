@@ -1,5 +1,9 @@
 const App = () => {
-  return <h1>ResumeCraft AI</h1>
+  return (
+    <main className='min-h-screen flex items-center justify-center bg-slate-950 text-white'>
+      <h1 className='text-5xl font-bold'>ResumeCraft AI 🚀</h1>
+    </main>
+  )
 }
 
 export default App
